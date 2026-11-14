@@ -6,9 +6,6 @@
 
 I enjoy building for the web, solving problems, and understanding how computers work, from software all the way down to hardware.
 
-[![Followers](https://img.shields.io/github/followers/PepZity?label=Followers&style=for-the-badge&logo=github)](https://github.com/PepZity)
-[![Profile Views](https://komarev.com/ghpvc/?username=PepZity&style=for-the-badge&color=blue)](https://github.com/PepZity)
-
 </div>
 
 ---
@@ -28,7 +25,7 @@ I enjoy building for the web, solving problems, and understanding how computers 
 
 ## 🔥 Current Challenge: 1 Year of DSA
 
-One solved problem every day, published automatically to GitHub.
+One problem a day, published automatically to GitHub.
 
 | Platform | Folder | Language |
 |----------|--------|----------|
@@ -92,11 +89,23 @@ One solved problem every day, published automatically to GitHub.
 
 ---
 
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PepZity/PepZity/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PepZity/PepZity/output/github-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/PepZity/PepZity/output/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
 ## 🔗 Connect With Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-PepZity-181717?style=for-the-badge&logo=github)](https://github.com/PepZity)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/YOUR-LEETCODE-USERNAME)
 
 ---
 
