@@ -39,6 +39,17 @@ One problem a day, published automatically to GitHub.
 ## 🕒 Latest Activity
 
 <!--ACTIVITY_START-->
+**Recently updated repositories**
+
+- [**DSA**](https://github.com/PepZity/DSA)
+
+**Latest commits in the DSA challenge**
+
+- `14 Nov 2026` [Revise README for clarity and updated content](https://github.com/PepZity/DSA/commit/06ae0d454dae5736d87a54a7c1b91fd5ec093a12)
+- `14 Nov 2026` [Revise README with personal details and goals](https://github.com/PepZity/DSA/commit/29123e59d67d2de08b694b8f5003c4558f2a1187)
+- `14 Nov 2026` [Add GitHub Actions workflow to update progress](https://github.com/PepZity/DSA/commit/9e79e5f265f66c89a8c7a90ee333a0f0e36e6ca0)
+- `14 Nov 2026` [Add progress tracking placeholders in README](https://github.com/PepZity/DSA/commit/03c729399e3d8dc4de495342a21e8bccad9dec76)
+- `14 Nov 2026` [Enhance README for DSA 1 Year Challenge](https://github.com/PepZity/DSA/commit/ee03bed7faa18971ab38e2394df7e2fe4f018ec9)
 <!--ACTIVITY_END-->
 
 ---
