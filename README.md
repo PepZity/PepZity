@@ -32,7 +32,10 @@ One problem a day, published automatically to GitHub.
 | LeetCode | [`Leetcode/`](https://github.com/PepZity/DSA/tree/main/Leetcode) | Python |
 | GeeksforGeeks | [`GFG/`](https://github.com/PepZity/DSA/tree/main/GFG) | Python |
 
-👉 **[Follow the challenge: PepZity/DSA](https://github.com/PepZity/DSA)**
+## 🕒 Latest Activity
+
+<!--ACTIVITY_START-->
+<!--ACTIVITY_END-->
 
 ---
 
