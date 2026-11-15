@@ -38,19 +38,21 @@ jobs:
               desc = (" - " + r["description"]) if r.get("description") else ""
               repo_lines.append("- [**" + r["name"] + "**](" + r["html_url"] + ")" + desc)
 
-          commits = get("https://api.github.com/repos/" + USER + "/DSA/commits?per_page=15")
+          commits = get("https://api.github.com/repos/" + USER + "/DSA/commits?per_page=30")
           commit_lines = []
           for c in commits:
               msg = c["commit"]["message"].splitlines()[0]
-              if msg.startswith("Update progress"):
+              if not (msg.startswith("Solved") or msg.startswith("Added")):
                   continue
               day = datetime.strptime(c["commit"]["author"]["date"], "%Y-%m-%dT%H:%M:%SZ").strftime("%d %b %Y")
               commit_lines.append("- `" + day + "` [" + msg + "](" + c["html_url"] + ")")
               if len(commit_lines) == 5:
                   break
 
-          block = "**Recently updated repositories**\n\n" + "\n".join(repo_lines)
-          block += "\n\n**Latest commits in the DSA challenge**\n\n" + "\n".join(commit_lines)
+          block = ""
+          if len(repo_lines) >= 2:
+              block += "**Recently updated repositories**\n\n" + "\n".join(repo_lines) + "\n\n"
+          block += "**Latest commits in the DSA challenge**\n\n" + "\n".join(commit_lines)
 
           p = "README.md"
           s = open(p, encoding="utf-8").read()
