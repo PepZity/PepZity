@@ -36,6 +36,8 @@ One problem a day, published automatically to GitHub.
 
 👉 **[Follow the challenge: PepZity/DSA](https://github.com/PepZity/DSA)**
 
+---
+
 ## 🕒 Latest Activity
 
 <!--ACTIVITY_START-->
