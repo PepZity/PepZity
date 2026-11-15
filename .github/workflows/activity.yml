@@ -1,0 +1,68 @@
+name: Update activity
+on:
+  schedule:
+    - cron: "0 17 * * *"   # 10:30 PM IST, after the daily pushes
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          from datetime import datetime
+
+          USER = "PepZity"
+          TOKEN = os.environ["GITHUB_TOKEN"]
+
+          def get(url):
+              req = urllib.request.Request(url, headers={
+                  "Authorization": "Bearer " + TOKEN,
+                  "Accept": "application/vnd.github+json",
+              })
+              with urllib.request.urlopen(req) as r:
+                  return json.load(r)
+
+          repos = get("https://api.github.com/users/" + USER + "/repos?sort=pushed&per_page=10")
+          repos = [r for r in repos if r["name"] != USER and not r["fork"]][:5]
+          repo_lines = []
+          for r in repos:
+              desc = (" - " + r["description"]) if r.get("description") else ""
+              repo_lines.append("- [**" + r["name"] + "**](" + r["html_url"] + ")" + desc)
+
+          commits = get("https://api.github.com/repos/" + USER + "/DSA/commits?per_page=15")
+          commit_lines = []
+          for c in commits:
+              msg = c["commit"]["message"].splitlines()[0]
+              if msg.startswith("Update progress"):
+                  continue
+              day = datetime.strptime(c["commit"]["author"]["date"], "%Y-%m-%dT%H:%M:%SZ").strftime("%d %b %Y")
+              commit_lines.append("- `" + day + "` [" + msg + "](" + c["html_url"] + ")")
+              if len(commit_lines) == 5:
+                  break
+
+          block = "**Recently updated repositories**\n\n" + "\n".join(repo_lines)
+          block += "\n\n**Latest commits in the DSA challenge**\n\n" + "\n".join(commit_lines)
+
+          p = "README.md"
+          s = open(p, encoding="utf-8").read()
+          new = "<!--ACTIVITY_START-->\n" + block + "\n<!--ACTIVITY_END-->"
+          s = re.sub(r"<!--ACTIVITY_START-->.*?<!--ACTIVITY_END-->", lambda m: new, s, flags=re.S)
+          open(p, "w", encoding="utf-8").write(s)
+          PY
+
+          if git diff --quiet; then echo "No change"; exit 0; fi
+          git config user.name "PepZity"
+          git config user.email "356571377+PepZity@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update activity"
+          git pull --rebase
+          git push
