@@ -43,10 +43,11 @@ One problem a day, published automatically to GitHub.
 <!--ACTIVITY_START-->
 **Latest commits in the DSA challenge**
 
+- `16 Nov 2026` [Solved GFG: 1. If conditional statement- Python today](https://github.com/PepZity/DSA/commit/b7ce32e6627601a50441cbe5c57dc00883a7d022)
+- `16 Nov 2026` [Solved question 15 today](https://github.com/PepZity/DSA/commit/3b482af6bbb65df50a0eb6129a7045e75ea12a89)
 - `15 Nov 2026` [Solved GFG: 1's Complement today](https://github.com/PepZity/DSA/commit/40cd0db6a80ed47e660f2c01bd4b953532395a0b)
 - `15 Nov 2026` [Solved question 3 today](https://github.com/PepZity/DSA/commit/4ce5a8c15579b4f01482c865bc998c8ecf30caa7)
 - `14 Nov 2026` [Solved GFG: 0 - 1 Knapsack Problem today](https://github.com/PepZity/DSA/commit/02c376cda53a2227ddfa343d0d6485500e8f6f8f)
-- `14 Nov 2026` [Solved question 1 today](https://github.com/PepZity/DSA/commit/5fd25e816ba7a8d54bce9a1361feaccd5450acab)
 <!--ACTIVITY_END-->
 
 ---
