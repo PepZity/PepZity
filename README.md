@@ -43,11 +43,11 @@ One problem a day, published automatically to GitHub.
 <!--ACTIVITY_START-->
 **Latest commits in the DSA challenge**
 
+- `18 Nov 2026` [Solved GFG: 2. Mark Even and Odd - Python today](https://github.com/PepZity/DSA/commit/cc8b6cc3be0d6e1ac8b8647453daa3e87ca52d0d)
+- `18 Nov 2026` [Solved question 35 today](https://github.com/PepZity/DSA/commit/8d6e14afaa12bdbcac5332d3ef75f9e0b2d408e0)
 - `17 Nov 2026` [Solved GFG: 2D Hopscotch today](https://github.com/PepZity/DSA/commit/bc94b372aac84432b1ef9bc66912a6159b5fcf89)
 - `17 Nov 2026` [Solved question 20 today](https://github.com/PepZity/DSA/commit/91dec95fbdf5d915a043fc161c25fbe2ea40c327)
 - `16 Nov 2026` [Solved GFG: 1. If conditional statement- Python today](https://github.com/PepZity/DSA/commit/b7ce32e6627601a50441cbe5c57dc00883a7d022)
-- `16 Nov 2026` [Solved question 15 today](https://github.com/PepZity/DSA/commit/3b482af6bbb65df50a0eb6129a7045e75ea12a89)
-- `15 Nov 2026` [Solved GFG: 1's Complement today](https://github.com/PepZity/DSA/commit/40cd0db6a80ed47e660f2c01bd4b953532395a0b)
 <!--ACTIVITY_END-->
 
 ---
