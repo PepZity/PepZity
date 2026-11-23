@@ -43,11 +43,11 @@ One problem a day, published automatically to GitHub.
 <!--ACTIVITY_START-->
 **Latest commits in the DSA challenge**
 
+- `23 Nov 2026` [Solved GFG: AVL Tree Deletion today](https://github.com/PepZity/DSA/commit/2af9cc5695a6d58839010a25c7d74ae3d25c1a07)
+- `23 Nov 2026` [Solved question 83 today](https://github.com/PepZity/DSA/commit/938d3dbd6a8efd10ba460b60687d845f6b21180e)
 - `22 Nov 2026` [Solved GFG: 1568. Minimum Number of Days to Disconnect Island today](https://github.com/PepZity/DSA/commit/8471ca6100fe8798528c154d546aaddc9c55cd52)
 - `22 Nov 2026` [Solved question 82 today](https://github.com/PepZity/DSA/commit/f03a21b789d681fb115d4053ca3abf2993900137)
 - `21 Nov 2026` [Solved GFG: 224. Basic Calculator today](https://github.com/PepZity/DSA/commit/a01b4597acc8db47121be27dbadde7509fdca096)
-- `21 Nov 2026` [Solved question 80 today](https://github.com/PepZity/DSA/commit/03a724fa46bfaf89e4e564860234abf4773deda1)
-- `20 Nov 2026` [Solved GFG: 28. Find the Index of the First Occurrence in a String today](https://github.com/PepZity/DSA/commit/abb48d1dea432b3879bd3c2a3b95b74e3723de25)
 <!--ACTIVITY_END-->
 
 ---
