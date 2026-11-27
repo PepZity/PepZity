@@ -43,11 +43,11 @@ One problem a day, published automatically to GitHub.
 <!--ACTIVITY_START-->
 **Latest commits in the DSA challenge**
 
+- `27 Nov 2026` [Solved GFG: Absolute difference divisible by K today](https://github.com/PepZity/DSA/commit/cc5a664cc0018aafcb289092d9032d391013e49a)
+- `27 Nov 2026` [Solved question 219 today](https://github.com/PepZity/DSA/commit/b92e1415fdb404a8f623883daf0869923d5ed5ba)
 - `26 Nov 2026` [Solved GFG: Absolute List Sorting today](https://github.com/PepZity/DSA/commit/7284ce074a5e532b7c0337dd4f20c2e85a953cd1)
 - `26 Nov 2026` [Solved question 209 today](https://github.com/PepZity/DSA/commit/2624a1031685fc659a928694d7f08256df024076)
 - `25 Nov 2026` [Solved GFG: Absolute Difference of 1 today](https://github.com/PepZity/DSA/commit/312212b7ef374f469b10993a56d96daca79294e0)
-- `25 Nov 2026` [Solved question 167 today](https://github.com/PepZity/DSA/commit/d7ab508843607ebbeb763f21bc40e89cc9b13e7d)
-- `24 Nov 2026` [Solved GFG: AVL Tree Insertion today](https://github.com/PepZity/DSA/commit/5413d31cabc0e9353209c82a63464b10e1c83708)
 <!--ACTIVITY_END-->
 
 ---
